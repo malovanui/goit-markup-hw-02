@@ -1,0 +1,29 @@
+:root {
+    --accent-color: #2196F3;
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --main-btn-color: #2196F3;
+    --secondary-btn-color: #F5F4FA;
+    --background-color: #E5E5E5;
+    --secondary-background-color: #F5F4FA;
+}
+
+.list {
+list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
